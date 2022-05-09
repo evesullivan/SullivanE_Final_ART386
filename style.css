@@ -21,28 +21,6 @@ html, body {
   text-transform: uppercase;
 }
 
-.nav ul {
-  margin: 0 0 30px;
-  text-align: center;
-  padding-top: 15px;
-}
-
-.nav li {
-  -webkit-transition:color 0.25s;
-  transition:color 0.25s;
-  color: #fff;
-  display: inline;
-  text-transform: uppercase;
-  padding: 0 10px;
-}
-
-.nav li:hover {
-  color: #31363d;
-  cursor: pointer; 
-  -webkit-transition: color 1s;
-  transition: color 1s;
-}
-
 .row {
   margin-top: 30px;
 }
@@ -58,11 +36,10 @@ html, body {
   padding-right: 40px;
 }
 
-@media (max-width: 500px) {
-  .row {
+.row {
     margin-top: 0;
   }
-  .img-responsive {
+
+.image {
     margin-bottom: 20px;
   }
-}
